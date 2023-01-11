@@ -1,0 +1,23 @@
+{
+	"name": "@crrtp/commit-types",
+	"version": "1.0.0",
+	"license": "MIT",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/crrtp/commit-types.git"
+	},
+	"scripts": {
+		"lint": "eslint --fix --cache **/*.js",
+		"commit": "node ./node_modules/cz-customizable/standalone.js"
+	},
+	"devDependencies": {
+		"@crrtp/eslint-config": "^1.0.0",
+		"cz-customizable": "^7.0.0",
+		"eslint": "^8.31.0"
+	},
+	"peerDependencies": {
+		"cz-customizable": ">= 7.0.0"
+	},
+	"packageManager": "pnpm@7.22.0"
+}
